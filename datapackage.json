@@ -1,0 +1,35 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data\\unemploymentRate.csv",
+            "profile": "tabular-data-resource",
+            "name": "unemploymentRate",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "rate",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
