@@ -26,7 +26,7 @@ You first need to install the dependencies:
 pip install -r scripts/requirements.txt
 ```
 
-Then run the script
+Then run the script.
 
 ```
 python scripts/process.py
