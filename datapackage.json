@@ -2,16 +2,16 @@
     "profile": "tabular-data-package",
     "resources": [
         {
-            "path": "data\\unemploymentRate.csv",
+            "path": "data\\unemploymentRate-final.csv",
             "profile": "tabular-data-resource",
-            "name": "unemploymentRate",
+            "name": "unemploymentRate-final",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
             "schema": {
                 "fields": [
                     {
-                        "name": "region",
+                        "name": "Region",
                         "type": "string",
                         "format": "default"
                     },
